@@ -19,9 +19,10 @@ export class SplashPage {
   }
 
   ionViewDidLoad() {
+    var that=this
     setTimeout(function () {
-      this.navCtrl.push(HomePage);
-    },3000)
+      that.navCtrl.push(HomePage);
+    },2000)
   }
 
 }
